@@ -27,23 +27,23 @@ const About: NextPage<Props> = () => {
           <div className="flex items-center  justify-between w-[300px]   ">
             <div className="flex flex-col gap-6 ">
               <div className="flex gap-4 items-center font-medium">
-                <AiOutlineGift className="text-[#ff4D41] text-[22px]" />
+                <AiOutlineGift className="text-[#009688] text-[22px]" />
                 Birthday
               </div>
               <div className="flex gap-4 items-center font-medium">
-                <FiBookOpen className="text-[#ff4D41] text-[22px]" />
+                <FiBookOpen className="text-[#009688] text-[22px]" />
                 Study
               </div>
               <div className="flex gap-4 items-center font-medium">
-                <BsGlobe2 className="text-[#ff4D41] text-[22px]" />
+                <BsGlobe2 className="text-[#009688] text-[22px]" />
                 Website
               </div>
               <div className="flex gap-4 items-center font-medium">
-                <TbPacman className="text-[#ff4D41] text-[22px]" />
+                <TbPacman className="text-[#009688] text-[22px]" />
                 Interest
               </div>
               <div className="flex gap-4 items-center font-medium">
-                <IoLocationOutline className="text-[#ff4D41] text-[22px]" />
+                <IoLocationOutline className="text-[#009688] text-[22px]" />
                 Location
               </div>
             </div>
