@@ -1,0 +1,8 @@
+.button{
+    padding: 0.5rem;
+    border: none;
+    background-color: tomato;
+    font-size: 1.2rem;
+    color:#fff;
+    cursor:pointer;
+  }
