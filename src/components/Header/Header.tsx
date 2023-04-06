@@ -1,3 +1,4 @@
+import clientRoute from "@/common/clientRoute";
 import { NextPage } from "next";
 import Link from "next/link";
 import { useState } from "react";
@@ -17,12 +18,12 @@ const Header: NextPage<Props> = () => {
         <div className="hidden sm:flex">
           <ul className="flex">
             <li className=" mr-4  uppercase text-white relative after:absolute flex flex-col after:bottom-0   after:h-[2px] after:bg-green-500 after:content-[''] after:w-0 after:hover:w-full  after:duration-300">
-              <Link href="/" className="cursor-pointer">
+              <Link href={clientRoute.main} className="cursor-pointer">
                 Home
               </Link>
             </li>
             <li className=" mr-4  uppercase text-white relative after:absolute flex flex-col after:bottom-0   after:h-[2px] after:bg-green-500 after:content-[''] after:w-0 after:hover:w-full  after:duration-300">
-              <Link href="/contact" className="cursor-pointer">
+              <Link href={clientRoute.contact} className="cursor-pointer">
                 Contact
               </Link>
             </li>
@@ -67,13 +68,13 @@ const Header: NextPage<Props> = () => {
           />
           <div className="flex flex-col items-center">
             <Link
-              href={"/"}
+              href={clientRoute.main}
               className="p-2 text-xl font-bold text-gray-800 hover:text-gray-100"
             >
               Home
             </Link>
             <Link
-              href={"/contact"}
+              href={clientRoute.contact}
               className="p-2 text-xl font-bold text-gray-800 hover:text-gray-100"
             >
               Contact
