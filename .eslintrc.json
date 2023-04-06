@@ -1,3 +1,22 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "semi": "error",
+    "no-var": "error", //ห้ามใช้var
+    "indent": ["error", 2],
+    "no-trailing-spaces": "error", //ต้องไม่มีเว้นวรรคที่ไม่จำเป็นอยู่ท้ายบรรทัด
+    "no-unused-vars": "error", //ตรวจสอบว่ามีตัวแปรที่ประกาศไว้แต่ไม่ถูกใช้หรือไม่
+    "no-console": "error",
+    "camelcase": ["error"], //ต้องใช้ตัวอักษรเล็กและตัวเลขในชื่อตัวแปรและ property
+    "func-call-spacing": ["error", "never"], //ห้ามมีช่องว่างหน้าและหลัง () ในการเรียกฟังก์ชัน
+    "eqeqeq": "error", //ต้องใช้ operator === แทน == และ !== แทน !=
+    "quotes": ["error", "double"],
+    "object-curly-spacing": ["error", "always"], // เว้นวรรคระหว่างตัวแปร เช่น import { test } from 'test'
+    "max-len": [
+      "warn",
+      {
+        "code": 200
+      }
+    ]
+  }
 }
