@@ -1,4 +1,4 @@
-export * as AppHead from "./AppHead/AppHead";
-export * as Button from "./Button/Button";
-export * as Header from "./Header/Header";
-export * as TextInput from "./TextInput/TextInput";
+export { default as AppHead } from "./AppHead/AppHead";
+export { default as Button } from "./Button/Button";
+export { default as Header } from "./Header/Header";
+export { default as TextInput } from "./TextInput/TextInput";
