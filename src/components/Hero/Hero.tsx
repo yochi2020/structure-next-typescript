@@ -1,7 +1,7 @@
 "use client";
 import { NextPage } from "next";
 import Typewriter from "typewriter-effect";
-import { Button } from "@components/index";
+import { Button } from "@/components/index";
 interface Props {}
 const Hero: NextPage<Props> = () => {
   return (
