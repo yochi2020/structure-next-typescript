@@ -12,11 +12,6 @@
     "eqeqeq": "error", //ต้องใช้ operator === แทน == และ !== แทน !=
     "quotes": ["error", "double"],
     "object-curly-spacing": ["error", "always"], // เว้นวรรคระหว่างตัวแปร เช่น import { test } from 'test'
-    "max-len": [
-      "warn",
-      {
-        "code": 200
-      }
-    ]
+    "max-len": ["warn", { "code": 120 }]
   }
 }

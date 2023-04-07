@@ -12,3 +12,4 @@ export { default as Heading  } from "./Heading/Heading";
 export { default as Skill } from "./Skill/Skill";
 export { default as Work } from "./Work/Work";
 export { default as Section } from "./Section/Section";
+export { default as Card } from "./Card/Card";
