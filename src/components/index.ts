@@ -11,4 +11,4 @@ export { default as WhatIDo } from "./WhatIDo/WhatIDo";
 export { default as Heading  } from "./Heading/Heading";
 export { default as Skill } from "./Skill/Skill";
 export { default as Work } from "./Work/Work";
-export { default as Headding } from "./Heading/Heading";
+export { default as Section } from "./Section/Section";
