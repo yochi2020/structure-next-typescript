@@ -6,7 +6,7 @@ const Card: NextPage<Props> = () => {
     <div>
       <div className="border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-lg
        transition duration-300 ease-in-out group cursor-pointer">
-        <div className="overflow-hidden ">
+        <div className="overflow-hidden  h-48">
           <Image
             className=" object-cover object-center  group-hover:scale-125   duration-300 "
             src="https://source.unsplash.com/random"
