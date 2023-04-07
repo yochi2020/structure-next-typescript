@@ -1,11 +1,10 @@
 import { NextPage } from "next";
-import { About, AppHead, Header, Skill, WhatIDo, Work } from "@/components";
-import Hero2 from "@/components/Hero/Hero2";
-
+import { About, AppHead, Header, Skill, WhatIDo, Work,Hero2 } from "@/components";
+import Layout from "@/layouts/Layout";
 interface Props {}
 const Contact: NextPage<Props> = () => {
   return (
-    <div>
+    <Layout>
       <AppHead title="Contact" />
       <Header />
       <Hero2 />
@@ -13,7 +12,7 @@ const Contact: NextPage<Props> = () => {
       <Skill />
       <Work />
       <WhatIDo />
-    </div>
+    </Layout>
   );
 };
 export default Contact;

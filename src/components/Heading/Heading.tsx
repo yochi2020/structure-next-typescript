@@ -5,7 +5,7 @@ interface Props {
 const Heading: NextPage<Props> = (props) => {
   const { title } = props;
   return (
-    <div className="text-[#232940] text-[32px] font-medium flex items-center gap-4 py-16">
+    <div className="text-[#232940] text-[32px] font-medium flex items-center gap-4 py-10">
       {title}
       <div className="bg-[#009688] w-[40px] h-[2px] translate-y-1"></div>
     </div>

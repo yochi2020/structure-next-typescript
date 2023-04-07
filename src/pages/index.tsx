@@ -1,10 +1,9 @@
-import { AppHead, Card, Header, Section } from "@/components";
-
+import { AppHead, Card, Section } from "@/components";
+import Layout from "@/layouts/Layout";
 export default function Home() {
   return (
-    <>
+    <Layout>
       <AppHead title="Home" />
-      <Header />
       <Section title="Latest Posts">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <Card />
@@ -21,6 +20,6 @@ export default function Home() {
           <Card />
         </div>
       </Section>
-    </>
+    </Layout>
   );
 }
